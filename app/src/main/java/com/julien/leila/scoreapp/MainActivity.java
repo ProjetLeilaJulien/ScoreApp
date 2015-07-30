@@ -6,13 +6,11 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    //fake comment to try cganging git name
+    //fake comment to try changing git name
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        TextView text = new TextView(this);
-        text.setText("Bonjour, vous me devez 1 000 000€.");
-        setContentView(text);
+        setContentView(R.layout.activity_main);
     }
 }
