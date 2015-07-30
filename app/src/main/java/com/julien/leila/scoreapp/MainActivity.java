@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
+    //fake comment to try cganging git name
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
