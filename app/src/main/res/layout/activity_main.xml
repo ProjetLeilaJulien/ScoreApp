@@ -3,28 +3,39 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView
+
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Poids : "
-        android:textStyle="bold"
-        android:textColor="#FF0000"
-        android:gravity="center"
-        />
-    <EditText
-        android:id="@+id/poids"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="Poids"
-        android:inputType="numberDecimal"
-        />
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poids : "
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+
+            />
+        <EditText
+            android:id="@+id/poids"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poids"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Taille : "
         android:textStyle="bold"
         android:textColor="#FF0000"
-        android:gravity="center"
+    
+
         />
     <EditText
         android:id="@+id/taille"
@@ -37,8 +48,7 @@
         android:id="@+id/group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checkedButton="@+id/radio2"
-        android:orientation="horizontal"
+             android:orientation="horizontal"
         >
         <RadioButton
             android:id="@+id/radio1"
