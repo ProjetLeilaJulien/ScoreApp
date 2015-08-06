@@ -21,12 +21,11 @@
         android:id="@+id/souligne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Souligné"
         />
     <TextView
         android:id="@+id/smile"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Smileys"
         />
     <RadioGroup
