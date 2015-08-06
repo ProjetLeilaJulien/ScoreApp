@@ -4,93 +4,75 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Poids : "
-            android:textStyle="bold"
-            android:textColor="#FF0000"
-
-            />
-        <EditText
-            android:id="@+id/poids"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:hint="Poids"
-            android:inputType="numberDecimal"
-            />
-
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Taille : "
-        android:textStyle="bold"
-        android:textColor="#FF0000"
-    
-
-        />
-    <EditText
-        android:id="@+id/taille"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="Taille"
-        android:inputType="numberDecimal"
-        />
-    <RadioGroup
-        android:id="@+id/group"
+    <Button
+        android:id="@+id/gra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-             android:orientation="horizontal"
-        >
-        <RadioButton
-            android:id="@+id/radio1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mètre"
-            />
-        <RadioButton
-            android:id="@+id/radio2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Centimètre"
-            />
-    </RadioGroup>
-    <CheckBox
-        android:id="@+id/mega"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mega fonction !"
+        android:text="Gras"
         />
     <Button
-        android:id="@+id/calcul"
+        android:id="@+id/ital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculer l'IMC"
+        android:text="Italique"
         />
     <Button
-        android:id="@+id/raz"
+        android:id="@+id/souligne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RAZ"
+        android:text="Souligné"
         />
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Résultat:"
-        />
-    <TextView
-        android:id="@+id/result"
+        android:id="@+id/smile"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="Vous devez cliquer sur le bouton « Calculer l'IMC » pour obtenir un résultat."
+        android:text="Smileys"
         />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/couleurs"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/couleur1"
+            android:text="Noir"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+        <RadioButton
+        android:layout_width="wrap_content"
+            android:id="@+id/couleur2"
+            android:text="Bleu"
+        android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/couleur3"
+            android:text="Rouge"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cacher"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edition:" />
+    <EditText
+        android:id="@+id/edition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:inputType="text" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prévisualisation:" />
 </LinearLayout>
 
