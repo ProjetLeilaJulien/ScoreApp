@@ -23,11 +23,12 @@
         android:layout_height="wrap_content"
         android:text="Souligné"
         />
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:orientation="horizontal">
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
 
     <TextView
         android:id="@+id/smile"
@@ -35,11 +36,11 @@ android:orientation="horizontal">
         android:layout_height="wrap_content"
         android:text="Smileys"
         />
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -64,11 +65,11 @@ android:orientation="horizontal">
             android:text="Rouge"
             android:layout_height="wrap_content" />
     </RadioGroup>
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
     <Button
         android:id="@+id/cache"
         android:layout_width="wrap_content"
@@ -76,11 +77,11 @@ android:orientation="horizontal">
         android:gravity="center"
         android:text="Cacher"
         />
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -91,14 +92,15 @@ android:orientation="horizontal">
         android:layout_height="wrap_content"
         android:hint=""
         android:inputType="text" />
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Prévisualisation:" />
+    </LinearLayout>
 </LinearLayout>
 
