@@ -12,24 +12,27 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 // Notre activité détectera les touchers et les clics sur les vues qui se sont inscrites
 public class MainActivity extends Activity implements View.OnTouchListener, View.OnClickListener {
- /*   private Button raz = null;
-    private EditText tv1 = null;
-    private EditText tv2 = null;
-    private TextView tv3 = null;
-    private CharSequence t1 = null;
-    private CheckBox cb = null;
-*/
+    private Button gra = null;
+    private Button ital = null;
+    private Button souligne=null;
+    private Button cache=null;
+    private EditText edition = null;
+    private TextView edition1 = null;
+    private TextView previ = null;
+    private RadioGroup couleurs=null;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-/*
+
         raz = (Button) findViewById(R.id.raz);
         raz.setOnTouchListener(this);
         raz.setOnClickListener(this);
@@ -38,7 +41,7 @@ public class MainActivity extends Activity implements View.OnTouchListener, View
         tv3 = (TextView) findViewById(R.id.result);
         t1 = tv3.getText();
         cb = (CheckBox) findViewById(R.id.mega);
-*/
+
     }
 
     @Override
