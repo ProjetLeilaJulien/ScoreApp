@@ -25,6 +25,7 @@ public class MainActivity extends Activity implements View.OnTouchListener, View
     private EditText edition = null;
     private TextView edition1 = null;
     private TextView previ = null;
+    private TextView smile=null;
     private RadioGroup couleurs=null;
 
     @Override
@@ -32,16 +33,23 @@ public class MainActivity extends Activity implements View.OnTouchListener, View
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+        gra = (Button) findViewById(R.id.gra);
+        gra.setOnTouchListener(this);
+        gra.setOnClickListener(this);
 
-        raz = (Button) findViewById(R.id.raz);
-        raz.setOnTouchListener(this);
-        raz.setOnClickListener(this);
-        tv1 = (EditText) findViewById(R.id.poids);
-        tv2 = (EditText) findViewById(R.id.taille);
-        tv3 = (TextView) findViewById(R.id.result);
-        t1 = tv3.getText();
-        cb = (CheckBox) findViewById(R.id.mega);
+        ital = (Button) findViewById(R.id.ital);
+        ital.setOnTouchListener(this);
+        ital.setOnClickListener(this);
 
+        souligne= (Button) findViewById(R.id.souligne);
+        souligne.setOnTouchListener(this);
+        souligne.setOnClickListener(this);
+        edition = (EditText) findViewById(R.id.edition);
+        edition1 = (TextView) findViewById(R.id.edition1);
+        previ = (TextView) findViewById(R.id.previ);
+        smile = (TextView) findViewById(R.id.smile);
+        couleurs = (RadioGroup) findViewById(R.id.couleurs);
+        return ;
     }
 
     @Override
