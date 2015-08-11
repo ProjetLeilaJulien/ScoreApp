@@ -11,24 +11,26 @@
 
     <Button
         android:id="@+id/gra"
+        style="blackText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gras"
-        android:background="#4000FF"
+        android:background="@drawable/boutonbleu"
+
         />
     <Button
         android:id="@+id/ital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Italique"
-        android:background="#4000FF"
+        android:background="@drawable/boutonbleu"
         />
     <Button
         android:id="@+id/souligne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Souligné"
-        android:background="#4000FF"
+        android:background="@drawable/boutonbleu"
         />
 </LinearLayout>
 
@@ -42,6 +44,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Smileys"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:src="@drawable/content"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rigole"
+        android:src="@drawable/rigole"
+        />
+     <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/clin"
+         android:src="@drawable/clin"
+         />
         />
     </LinearLayout>
 
@@ -86,7 +107,7 @@
         android:gravity="center"
         android:text="Cacher"
         android:padding="20dp"
-        android:background="#FF6000"
+        android:background="@drawable/boutonjaune"
         />
     </LinearLayout>
     <LinearLayout
