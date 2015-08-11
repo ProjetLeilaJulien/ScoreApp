@@ -1,6 +1,21 @@
 <resources>
     <string name="app_name">ScoreApp</string>
+    <string name="Souligné">souligne</string>
+    <string name="Gras">gras</string>
+    <string name="Italique">ital</string>
+    <string name="Smileys">smile</string>
+    <string name="Noir">couleur1</string>
+    <string name="Bleu">couleur2</string>
+    <string name="Rouge">couleur3</string>
+    <string name="Cacher">cache</string>
+    <string name="Edition">edition1</string>
+    <string name="Prévisualisation">prevu</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+
+
+
+
+
+
 </resources>
